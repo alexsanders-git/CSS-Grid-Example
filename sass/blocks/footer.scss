@@ -1,0 +1,25 @@
+.footer {
+    padding: 60px 0;
+    background-color: darken($dark, 8%);
+    text-align: center;
+    color: #4E5355;
+}
+
+.footer__logo {
+    font-family: 'intro-grid', sans-serif;
+    font-size: 22px;
+    line-height: 1.16;
+
+    span {
+        display: block;
+        color: #707476;
+        font-size: 27px;
+    }
+}
+
+.footer__copy {
+    font-size: 20px;
+    font-weight: bold;
+    color: #494D50;
+    margin-top: 20px;
+}

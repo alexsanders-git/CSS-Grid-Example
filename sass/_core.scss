@@ -1,0 +1,12 @@
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 $gutter;
+}
+
+.title {
+	font-size: 34px;
+	font-weight: 800;
+	color: $dark;
+	line-height: 1.2;
+}

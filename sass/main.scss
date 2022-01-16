@@ -1,0 +1,18 @@
+@import "fonts";
+@import "libs";
+@import "base";
+@import "vars";
+@import "mixins";
+@import "core";
+
+// Блоки
+@import "blocks/header.scss";
+@import "blocks/portfolio.scss";
+@import "blocks/info.scss";
+@import "blocks/contacts.scss";
+@import "blocks/form.scss";
+@import "blocks/blog.scss";
+@import "blocks/footer.scss";
+
+// Всегда в конце
+@import "media";

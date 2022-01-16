@@ -1,0 +1,36 @@
+.form {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: $gutter;
+}
+
+.form__input {
+
+    input {
+        border: none;
+        background-color: lighten($dark, 6%);
+        padding: 15px 20px;
+        width: 100%;
+        font-family: 'Arial', sans-serif;
+        font-style: italic;
+        outline: none;
+        transition: background-color .25s ease;
+
+        &:focus {
+            background-color: $light;
+        }
+
+        &::placeholder {
+            color: lighten($dark, 20%);
+        }
+    }
+}
+
+.form__button {
+    @include button($accent) {
+        font-size: 17px;
+        width: 100%;
+        padding: 14.5px;
+
+    }
+}
