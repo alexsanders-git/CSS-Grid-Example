@@ -6,7 +6,7 @@
 ___
 
 #### :link: Live Demo: 
-[CSS Grid Example](https://alexsanders-git.github.io/ZEN-MasterCard/)
+[CSS Grid Example](https://alexsanders-git.github.io/CSS-Grid-Example/)
 ___
 
 #### :rocket: Technologies Used
